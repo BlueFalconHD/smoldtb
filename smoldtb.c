@@ -438,7 +438,7 @@ size_t dtb_query_total_size(uintptr_t fdt_start)
     return be32(header->total_size);
 }
 
-bool dtb_init(uintptr_t start, dtb_ops ops)
+bool smoldtb_init(uintptr_t start, dtb_ops ops)
 {
     state.ops = ops;
 
