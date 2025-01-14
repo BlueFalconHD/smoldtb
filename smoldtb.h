@@ -58,7 +58,7 @@ typedef struct
 
 size_t dtb_query_total_size(uintptr_t fdt_start);
 
-bool dtb_init(uintptr_t start, dtb_ops ops);
+bool smoldtb_init(uintptr_t start, dtb_ops ops);
 
 dtb_node* dtb_find_compatible(dtb_node* node, const char* str);
 dtb_node* dtb_find_phandle(unsigned handle);
