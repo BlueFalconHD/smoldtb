@@ -1,5 +1,8 @@
 #include "smoldtb.h"
 
+// 2mb fixed buffer
+#define SMOLDTB_STATIC_BUFFER_SIZE 1024 * 1024 * 2
+
 /* ---- Section: Defines and Structs ---- */
 
 #define FDT_MAGIC 0xD00DFEED
